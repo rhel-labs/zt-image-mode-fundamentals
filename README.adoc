@@ -1,0 +1,46 @@
+= Image Mode Fundamentals
+
+A hands-on lab for learning the core concepts of RHEL Image Mode.
+
+== Lab Overview
+
+This lab teaches the fundamentals of building, deploying, and updating Red Hat Enterprise Linux (RHEL) systems using Image Mode.
+
+**Duration:** 25-30 minutes
+
+**What You'll Learn:**
+
+* Building bootable container images (bootc)
+* Deploying VMs from bootc images
+* Making changes and applying updates to image mode systems
+
+== Lab Environment
+
+* **Build Host** - RHEL 10 system for building bootc images
+* **Bootc VM** - Virtual machine deployed from your bootc image (created during the lab)
+
+== Prerequisites
+
+Basic familiarity with:
+
+* Linux command line
+* Text editors (nano or vim)
+* Container concepts (helpful but not required)
+
+== Lab Modules
+
+1. **Lab Introduction** - Overview of Image Mode concepts
+2. **Building Your First Bootc Image** - Create a Containerfile and build a bootc image
+3. **Deploying a Virtual Machine** - Use bootc-image-builder to create and launch a VM
+4. **Making Changes and Updates** - Modify your image and apply updates
+
+== Development Notes
+
+This lab is part of the RHEL Image Mode lab series. It covers the foundational concepts and workflows.
+
+**Related Labs:**
+
+* Image Mode Security and Compliance
+* Image Mode Runtime Operations
+* Image Mode Advanced Workflows
+

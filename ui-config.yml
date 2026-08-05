@@ -1,0 +1,28 @@
+---
+
+antora:
+  name: modules
+  dir: www
+  modules:
+    - name: module-01
+      label: "Lab Introduction"
+      solveButton: false
+    - name: module-02
+      label: "Building Your First Bootc Image"
+      solveButton: false
+    - name: module-03
+      label: "Deploying a Virtual Machine"
+      solveButton: false
+    - name: module-04
+      label: "Making Changes and Updates"
+      solveButton: false
+
+tabs:
+  - name: ">_ Build Host"
+    url: /wetty
+  - name: ">_ Bootc VM"
+    command: /root/.wait_for_bootc_vm.sh
+    modules:
+      - module-03
+      - module-04
+

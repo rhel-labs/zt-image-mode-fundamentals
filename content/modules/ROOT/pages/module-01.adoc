@@ -1,0 +1,53 @@
+= Image Mode Fundamentals
+
+Welcome to the Image Mode Fundamentals lab! In this hands-on lab, you'll learn the core concepts of Red Hat Enterprise Linux (RHEL) Image Mode by building, deploying, and updating a bootable container image.
+
+== What is Image Mode?
+
+Image mode is a new way to deploy and manage RHEL systems using container technology. The fundamental principle is applying a decade of container expertise and advancements to building operating system images.
+
+This approach has a wide impact on how we think about:
+
+* OS design and "gold images"
+* Working with other teams
+* Addressing updates and rollbacks
+* System consistency and compliance
+
+== What You'll Learn
+
+In this lab, you will:
+
+1. **Build a bootc image** - Create your first bootable container image using a Containerfile
+2. **Deploy a virtual machine** - Use `bootc-image-builder` to create a qcow2 disk image and launch a VM
+3. **Make changes and update** - Modify your image, rebuild it, and apply updates to the running system
+
+== Lab Environment
+
+Your lab environment consists of:
+
+* **Build Host** - A RHEL 10 system where you'll build bootc images
+* **Local Registry** - A container registry for storing your bootc images
+* **KVM/libvirt** - For running virtual machines from your bootc images
+
+The terminal tabs will become available as you progress through the modules.
+
+== Prerequisites
+
+This lab assumes basic familiarity with:
+
+* Linux command line
+* Text editors (nano or vim)
+* Container concepts (though no deep container expertise required)
+
+[NOTE]
+====
+The instructions use `nano` commands for editing files.
+
+In `nano`, you can save and exit with `Ctrl+x`, following the prompts.
+
+The `vim` editor is also available for those who prefer it.
+====
+
+== Ready to Begin?
+
+Click **Next** to start building your first bootc image!
